@@ -1,0 +1,15 @@
+[user]
+	name = Grace Morgan
+	email = grace@users.noreply.github.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	lg = log --oneline --graph --all --decorate
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
